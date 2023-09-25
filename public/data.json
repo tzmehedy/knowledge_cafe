@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "author_name" : "Mr. Raju",
+        "Blog title" : "How to get your first job as a self-taught programmer",
+        "image" : "boy1.png",
+        "cover_image" : "1.jpg",
+        "readTime" : 5,
+        "publish_Date" : "March 05"
+    },
+    {
+        "id" : 2,
+        "author_name" : "Mrs. Setara",
+        "Blog title" : "How to get your first job as a self-taught programmer",
+        "image" : "girl1.png",
+        "cover_image" : "2.jpg",
+        "readTime" : 10,
+        "publish_Date" : "Oct 05"
+    },
+    {
+        "id" : 3,
+        "author_name" : "Mina Mostofa",
+        "Blog title" : "How to get your first job as a self-taught programmer",
+        "image" : "boy2.png",
+        "cover_image" : "3.jpg",
+        "readTime" : 15,
+        "publish_Date" : "April 05"
+    },
+    {
+        "id" : 1,
+        "author_name" : "Mst. Ipshita",
+        "Blog title" : "How to get your first job as a self-taught programmer",
+        "image" : "girl2.png",
+        "cover_image" : "4.jpg",
+        "readTime" : 20,
+        "publish_Date" : "nov 05"
+    }
+]
