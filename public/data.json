@@ -2,36 +2,36 @@
     {
         "id" : 1,
         "author_name" : "Mr. Raju",
-        "Blog title" : "How to get your first job as a self-taught programmer",
-        "image" : "boy1.png",
-        "cover_image" : "1.jpg",
+        "Blog_title" : "How to get your first job as a self-taught programmer",
+        "image" : "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "cover_image" : "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80",
         "readTime" : 5,
         "publish_Date" : "March 05"
     },
     {
         "id" : 2,
         "author_name" : "Mrs. Setara",
-        "Blog title" : "How to get your first job as a self-taught programmer",
-        "image" : "girl1.png",
-        "cover_image" : "2.jpg",
+        "Blog_title" : "How to get your first job as a self-taught programmer",
+        "image" : "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80",
+        "cover_image" : "https://media.istockphoto.com/id/1449171785/photo/young-it-specialist-working-at-pc-at-home-debugging-java-script-cyber-space-error.jpg?s=1024x1024&w=is&k=20&c=KQeuhA0MG4z3eo3BSvAgAJ5GDYfuXCEL3iaqdq4Dd_M=",
         "readTime" : 10,
         "publish_Date" : "Oct 05"
     },
     {
         "id" : 3,
         "author_name" : "Mina Mostofa",
-        "Blog title" : "How to get your first job as a self-taught programmer",
-        "image" : "boy2.png",
-        "cover_image" : "3.jpg",
+        "Blog_title" : "How to get your first job as a self-taught programmer",
+        "image" : "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "cover_image" : "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1429&q=80",
         "readTime" : 15,
         "publish_Date" : "April 05"
     },
     {
-        "id" : 1,
+        "id" : 4,
         "author_name" : "Mst. Ipshita",
-        "Blog title" : "How to get your first job as a self-taught programmer",
-        "image" : "girl2.png",
-        "cover_image" : "4.jpg",
+        "Blog_title" : "How to get your first job as a self-taught programmer",
+        "image" : "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+        "cover_image" : "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
         "readTime" : 20,
         "publish_Date" : "nov 05"
     }
