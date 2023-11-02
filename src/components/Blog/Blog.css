@@ -3,3 +3,8 @@
     height: 50px;
     border-radius: 30px;
 }
+.cursorControl{
+    width: 3px;
+    height: 3px;
+    cursor: pointer;
+}

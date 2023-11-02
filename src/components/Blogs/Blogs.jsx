@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 
-const Blogs = () => {
+const Blogs = ({handleReadTime,handleBookmark}) => {
     const [data,setData] = useState([])
 
     useEffect(()=>{
@@ -12,7 +12,7 @@ const Blogs = () => {
     return (
         <>
              {
-                data.map(singleData => <Blog singleData = {singleData} key={singleData.id}></Blog>)
+                data.map(singleData => <Blog singleData = {singleData} key={singleData.id} handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Blog>)
              }
         </>
     );
