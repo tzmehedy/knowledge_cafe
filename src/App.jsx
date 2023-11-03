@@ -7,10 +7,18 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   const [readTime,setReadTime] = useState(0);
-  const [blogName,setBlogName] = useState("");
+  const [blogName,setBlogName] = useState(null);
 
-  const handleBookmark = (blogName)=>{
-    const previousBookmark = localStorage
+  const handleBookmark = (blogName,id)=>{
+    if(localStorage.getItem("blogName") == null){
+      localStorage.setItem("blogName",'[]');
+    }
+    var getBlogName = JSON.parse(localStorage.getItem("blogName"))
+    getBlogName.push(blogName);
+    localStorage.setItem("blogName",JSON.stringify(getBlogName))
+    setBlogName(getBlogName);
+    
+
   }
   const handleReadTime = (time) =>{
     const previousReadTime = JSON.parse(localStorage.getItem("readTime"))
@@ -34,9 +42,10 @@ function App() {
       <div className='row'>
         <div className='col-lg-8 col-sm-12'>
           <Blogs handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Blogs>
+          {/* <Blogs handleReadTime={handleReadTime}></Blogs> */}
         </div>
         <div className='col-lg-4 col-sm-12'>
-          <Bookmark readTime={readTime}></Bookmark>
+          <Bookmark readTime={readTime} blogName={blogName}></Bookmark>
         </div>
       </div>
       
