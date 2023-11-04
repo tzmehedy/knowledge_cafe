@@ -23,7 +23,7 @@ const Bookmark = ({readTime,blogName}) => {
             </div>
             <div>
                 <div className='bg-body-secondary p-2 mt-2 ' >
-                    <h5 className='m-auto bg-light'>Bookmarked Blogs: {Object.values(updateBlogName).length}</h5>
+                    <h5 className='m-auto bg-light'>Bookmarked Blogs: {updateBlogName && Object.values(updateBlogName).length}</h5>
                     </div>
                 {
                   updateBlogName && Object.values(updateBlogName).map(value=>

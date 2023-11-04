@@ -4,6 +4,7 @@ import Blogs from './components/Blogs/Blogs'
 import Bookmark from './components/Bookmark/Bookmark'
 import Header from './components/Header/Header'
 import 'bootstrap/dist/css/bootstrap.css'
+import QuestionAnswer from './components/QuestionAnswer/QuestionAnswer'
 
 function App() {
   const [readTime,setReadTime] = useState(0);
@@ -46,6 +47,9 @@ function App() {
         </div>
         <div className='col-lg-4 col-sm-12'>
           <Bookmark readTime={readTime} blogName={blogName}></Bookmark>
+        </div>
+        <div>
+          <QuestionAnswer></QuestionAnswer>
         </div>
       </div>
       
